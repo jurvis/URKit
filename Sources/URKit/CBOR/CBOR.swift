@@ -183,7 +183,8 @@ extension CBOR {
                 comment: nil
             )
         case .date(let date):
-            return .item(date.ISO8601Format().flanked("1(", ")"))
+            let formatter = ISO8601DateFormatter()
+            return .item(formatter.string(from: date).flanked("1(", ")"))
         default:
             fatalError()
         }
