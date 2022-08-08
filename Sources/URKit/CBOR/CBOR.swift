@@ -41,7 +41,7 @@ enum DiagItem {
             let s = components.joined(separator: ", ").flanked(begin, end)
             if
                 annotate,
-                let comment
+                let comment = comment
             {
                 string = "\(s)   ; \(comment)"
             } else {
@@ -60,7 +60,7 @@ enum DiagItem {
             let b: String
             if
                 annotate,
-                let comment
+                let comment = comment
             {
                 b = "\(begin)   ; \(comment)"
             } else {
