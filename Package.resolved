@@ -3,10 +3,10 @@
     {
       "identity" : "wolfbase",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/wolfmcnally/WolfBase",
+      "location" : "https://github.com/jurvis/WolfBase",
       "state" : {
-        "revision" : "4aa155e69d2c4d8bcc17a8840b7a178882fcbfb1",
-        "version" : "4.2.0"
+        "branch" : "master",
+        "revision" : "c35621d110d8a65d8336d8b61253d9866c1f2cf2"
       }
     }
   ],
